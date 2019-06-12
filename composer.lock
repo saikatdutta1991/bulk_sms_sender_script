@@ -1,0 +1,291 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e34acdf20d0563b878c611136e7d2777",
+    "packages": [
+        {
+            "name": "box/spout",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/box/spout.git",
+                "reference": "6c4086cf97b36f0ca87d19f051902ce8004ee6b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/box/spout/zipball/6c4086cf97b36f0ca87d19f051902ce8004ee6b0",
+                "reference": "6c4086cf97b36f0ca87d19f051902ce8004ee6b0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlreader": "*",
+                "ext-zip": "*",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2",
+                "phpunit/phpunit": "^7"
+            },
+            "suggest": {
+                "ext-iconv": "To handle non UTF-8 CSV files (if \"php-intl\" is not already installed or is too limited)",
+                "ext-intl": "To handle non UTF-8 CSV files (if \"iconv\" is not already installed)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Box\\Spout\\": "src/Spout"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Adrien Loison",
+                    "email": "adrien@box.com"
+                }
+            ],
+            "description": "PHP Library to read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way",
+            "homepage": "https://www.github.com/box/spout",
+            "keywords": [
+                "OOXML",
+                "csv",
+                "excel",
+                "memory",
+                "odf",
+                "ods",
+                "office",
+                "open",
+                "php",
+                "read",
+                "scale",
+                "spreadsheet",
+                "stream",
+                "write",
+                "xlsx"
+            ],
+            "time": "2019-06-04T07:36:51+00:00"
+        },
+        {
+            "name": "brick/phonenumber",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/phonenumber.git",
+                "reference": "83515286b3ab4695fe7ff89e32bfba4857285821"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/phonenumber/zipball/83515286b3ab4695fe7ff89e32bfba4857285821",
+                "reference": "83515286b3ab4695fe7ff89e32bfba4857285821",
+                "shasum": ""
+            },
+            "require": {
+                "giggsey/libphonenumber-for-php": "7.* || 8.*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "2.*",
+                "phpunit/phpunit": "7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brick\\PhoneNumber\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Phone number library",
+            "keywords": [
+                "brick",
+                "phone",
+                "phone number",
+                "phonenumber"
+            ],
+            "time": "2018-11-12T21:58:26+00:00"
+        },
+        {
+            "name": "giggsey/libphonenumber-for-php",
+            "version": "8.10.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/libphonenumber-for-php.git",
+                "reference": "660a6153fd1e5c25613e57115db27be87052c452"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/660a6153fd1e5c25613e57115db27be87052c452",
+                "reference": "660a6153fd1e5c25613e57115db27be87052c452",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "giggsey/locale": "^1.7",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "pear/pear-core-minimal": "^1.9",
+                "pear/pear_exception": "^1.0",
+                "pear/versioncontrol_git": "^0.5",
+                "phing/phing": "^2.7",
+                "php-coveralls/php-coveralls": "^1.0|^2.0",
+                "phpunit/phpunit": "^4.8.36|^5.0",
+                "symfony/console": "^2.8|^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "libphonenumber\\": "src/"
+                },
+                "exclude-from-classmap": [
+                    "/src/data/",
+                    "/src/carrier/data/",
+                    "/src/geocoding/data/",
+                    "/src/timezone/data/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Gigg",
+                    "email": "giggsey@gmail.com",
+                    "homepage": "https://giggsey.com/"
+                }
+            ],
+            "description": "PHP Port of Google's libphonenumber",
+            "homepage": "https://github.com/giggsey/libphonenumber-for-php",
+            "keywords": [
+                "geocoding",
+                "geolocation",
+                "libphonenumber",
+                "mobile",
+                "phonenumber",
+                "validation"
+            ],
+            "time": "2019-05-30T07:28:51+00:00"
+        },
+        {
+            "name": "giggsey/locale",
+            "version": "1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giggsey/Locale.git",
+                "reference": "b8030fc8df13cdfbecba318588de2d52b49c9b50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giggsey/Locale/zipball/b8030fc8df13cdfbecba318588de2d52b49c9b50",
+                "reference": "b8030fc8df13cdfbecba318588de2d52b49c9b50",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "pear/pear-core-minimal": "^1.9",
+                "pear/pear_exception": "^1.0",
+                "pear/versioncontrol_git": "^0.5",
+                "phing/phing": "~2.7",
+                "phpunit/phpunit": "^4.8|^5.0",
+                "satooshi/php-coveralls": "^1.0",
+                "symfony/console": "^2.8|^3.0|^4.0",
+                "symfony/filesystem": "^2.8|^3.0|^4.0",
+                "symfony/finder": "^2.8|^3.0|^4.0",
+                "symfony/process": "^2.8|^3.0|^4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Giggsey\\Locale\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua Gigg",
+                    "email": "giggsey@gmail.com",
+                    "homepage": "http://giggsey.com/"
+                }
+            ],
+            "description": "Locale functions required by libphonenumber-for-php",
+            "time": "2019-04-26T07:28:50+00:00"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "5.32.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "08118b21b82e209582f5825851521d8022c9988b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/08118b21b82e209582f5825851521d8022c9988b",
+                "reference": "08118b21b82e209582f5825851521d8022c9988b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "^4.1",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Twilio\\": "Twilio/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Twilio API Team",
+                    "email": "api@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "time": "2019-05-29T22:54:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

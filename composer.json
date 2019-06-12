@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twilio/sdk": "^5.32",
+        "box/spout": "^3.0",
+        "brick/phonenumber": "^0.2.1"
+    }
+}
